@@ -3,7 +3,7 @@
 ```bash
 npm install
 # Or 
-# npx nodemon hello.ts
+# npx nodemon myserver.ts
 ```
 
 # Connecting to the server
