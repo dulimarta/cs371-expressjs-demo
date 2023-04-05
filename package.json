@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "node dist/myserver.js",
-    "build": "npm install typescript; tsc"
+    "serve": "ts-node myserver.ts",
+    "build": "npm"
   },
   "engines": {
     "node": "16"

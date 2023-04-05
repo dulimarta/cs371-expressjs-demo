@@ -5,7 +5,7 @@ const app = express()
 import path from "path"
 
 app.get("/", (req: Request, res: Response) => {
-  res.type("text/plain").send("<h1>Simple ExpressJS Server</h1>");
+  res.type("text/html").send("<h1>Simple ExpressJS Server</h1>");
 });
 
 app.get("/api1", (req: Request, res: Response) => {
