@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "ts-node myserver.ts",
-    "build": "npm"
+    "serve": "node dist/myserver.js",
+    "build": "npx tsc"
   },
   "engines": {
     "node": "16"
