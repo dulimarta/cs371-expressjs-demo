@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "node dist/myserver.js",
-    "build": "npx tsc"
+    "build": "npm install typescript; tsc"
   },
   "engines": {
     "node": "16"
